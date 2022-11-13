@@ -35,7 +35,6 @@ function playRound(playerSelection, computerSelection){
       case computerSelection === 'paper':
       computerScore = computerScore + 1
       computer_score.textContent = `Computer Score: ${computerScore}`
-      console.log("The computer won!")
       state.textContent = `Computer Won!`
       rounds = rounds - 1
       rounds_text.textContent = `Rounds: ${rounds}`
