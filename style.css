@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Sketchy";
+    src: url('./fonts/sketchy.ttf');
+}
+
+body{
+    font-family: "Sketchy", Arial, sans-serif;
+    text-align: center;
+    background-image: url('images/bg.png');
+}
+
+.title{
+    font-weight:bold;
+    font-size: 42px;
+}
+.summary{
+    font-size: 32px;
+}
+
+.instruction.container>p{
+    font-size: 27px;
+}
+.button.containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Sketchy";
+    font-size: 20px;
+    background-color: rgba(255, 255,255, 0);
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+button:hover{
+  color: white;
+  background-color:black;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.scores{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px;
+}
+
+.scores.player{
+    float: left;
+}
+
+.scores.computer{
+    float: right;
+}
