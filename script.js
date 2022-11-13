@@ -27,5 +27,6 @@ function playRound(playerSelection, computerSelection){
 
 function playGame(){
   let input = prompt('Please enter rock, paper, or scissors')
-  getComputerChoice(input)
+  let result = input.toLowerCase()
+  getComputerChoice(result)
 }
